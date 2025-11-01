@@ -1,11 +1,56 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.1.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
   <diagram name="第 1 页" id="G5JlD4OWLcUNIMYHlbYL">
     <mxGraphModel dx="937" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7QpWm3qJ044HXFOspNzL-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="3xqltID-OkWljAGHi8N5-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7QpWm3qJ044HXFOspNzL-1" target="3xqltID-OkWljAGHi8N5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7QpWm3qJ044HXFOspNzL-1" value="加载XML" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3xqltID-OkWljAGHi8N5-1" target="3xqltID-OkWljAGHi8N5-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-1" value="解析xml" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3xqltID-OkWljAGHi8N5-3" target="3xqltID-OkWljAGHi8N5-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-3" value="封装BeanDefinition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3xqltID-OkWljAGHi8N5-5" target="3xqltID-OkWljAGHi8N5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-5" value="实例化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3xqltID-OkWljAGHi8N5-7" target="3xqltID-OkWljAGHi8N5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-7" value="放到容器中中" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="815" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-9" value="从容器中获取" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="815" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3xqltID-OkWljAGHi8N5-11" target="3xqltID-OkWljAGHi8N5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-11" value="容器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3xqltID-OkWljAGHi8N5-12" target="3xqltID-OkWljAGHi8N5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-12" value="MAP" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xqltID-OkWljAGHi8N5-14" value="key:String value:Object&lt;br&gt;key:class value:Object&lt;br&gt;key:String value:ObjectFactory&lt;br&gt;key:String value:BeanDefinition" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="325" width="290" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
